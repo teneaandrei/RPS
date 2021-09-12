@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RPS.Factory\RPS.Factory.csproj" />
+    <ProjectReference Include="..\RPS.Game\RPS.Game.csproj" />
+    <ProjectReference Include="..\RPS.Model\RPS.Model.csproj" />
+    <ProjectReference Include="..\RPS.Player\RPS.Player.csproj" />
+    <ProjectReference Include="..\RPS.Rule\RPS.Move.csproj" />
+  </ItemGroup>
+
+</Project>
